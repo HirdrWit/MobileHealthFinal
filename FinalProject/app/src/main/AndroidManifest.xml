@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".settings"></activity>
+
+        <activity
+            android:name=".settings"
+            android:label="@string/string_settings">
+        </activity>
+
     </application>
 
 </manifest>
